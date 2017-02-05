@@ -1,0 +1,15 @@
+---
+layout: default
+img: modeling.jpg
+category: Services
+title: Objectives
+description: |
+---
+GLOSE aims to provide formal and operational tools and methods to <strong>formalize the behavioral semantics</strong> of the various modeling languages used at system-level. 
+These semantics will be used to <strong>extract behavioral language interfaces supporting the definition of coordination patterns</strong>. 
+These patterns, in turn, can systematically be used to <strong>drive the coordination of any model conforming to these languages</strong>.
+
+The project is structured according to the following tasks: 
+    <em>concurrent xDSML engineering</em>, 
+    <em>coordination of discrete models</em>, and 
+    <em>coordination of discrete/continuous models</em>.
