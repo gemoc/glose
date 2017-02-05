@@ -28,3 +28,8 @@ social:
     url: https://github.com/gemocinitiative
   - title: comment
     url: mailto:glose@inria.fr
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
