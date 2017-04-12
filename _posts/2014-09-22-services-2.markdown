@@ -5,5 +5,4 @@ category: Services
 title: Context
 description: |
 ---
-  The <strong>simulation of system-level models requires coordinating physical models with software models</strong>. These models are developed and maintained by different stakeholders, e.g., physics engineers, control engineers and software engineers, 
-  according to different fondations: 3D finite-elements models with partial differential equations, finite-dimension 0D models expressed with differential and algebraic ordinary equations, or directly as C code embedding both the differential equations and its discretization scheme.
+  The <strong>simulation of system-level models requires coordinating physical models with software models</strong>. These models are developed and maintained by different stakeholders, e.g., physics engineers, control engineers and software engineers, according to different fondations: 3D finite-elements models with partial differential equations, finite-dimension 0D models expressed with differential and algebraic ordinary equations, or directly as C code embedding both the differential equations and its discretization scheme.
