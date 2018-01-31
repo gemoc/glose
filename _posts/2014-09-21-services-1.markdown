@@ -5,10 +5,13 @@ category: Services
 title: Partners
 description: |
 ---
-  GLOSE is a bilateral collaboration between <a href="https://www.safran-group.com/" target="_blank">Safran</a> and 
-  the teams <a href="http://diverse.irisa.fr/" target="_blank">DiverSE</a>, 
-  <a href="https://www.irisa.fr/fr/equipes/hycomes-0" target="_blank">Hycomes</a> and 
-  <a href="https://www.inria.fr/equipes/kairos" target="_blank">KAIRIOS</a> at <a href="http://gemoc.org/studio/" target="_blank">Inria</a>. 
-  The project <strong>develops new techniques for heterogeneous modeling and simulation in the context of systems engineering</strong>. 
-  The project is funded in the context of <a href="#" target="_blank">the network DESIR</a>, 
-  and supported by <a href="http://gemoc.org/" target="_blank">the GEMOC initiative</a>. 
+GLOSE is a bilateral collaboration between <a href="https://www.safran-group.com/" target="_blank">Safran</a>,
+the teams <a href="http://diverse.irisa.fr/" target="_blank">DiverSE</a>,
+<a href="https://www.irisa.fr/fr/equipes/hycomes-0" target="_blank">Hycomes</a> and
+<a href="https://www.inria.fr/equipes/kairos" target="_blank">KAIRIOS</a> at <a href="http://gemoc.org/studio/" target="_blank">Inria</a>,
+and the team SM@RT at the <a href="http://www.cnrs.fr/index.php" target="_blank">CNRS</a>
+<a href="https://www.irit.fr/">IRIT</a> lab.
+
+The project <strong>develops new techniques for heterogeneous modeling and simulation in the context of systems engineering</strong>.
+The project is funded in the context of <a href="#" target="_blank">the network DESIR</a>,
+and supported by <a href="http://gemoc.org/" target="_blank">the GEMOC initiative</a>.
