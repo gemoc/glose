@@ -26,8 +26,6 @@ social:
     url: https://twitter.com/gemocinitiative
   - title: github
     url: https://github.com/gemoc
-  - title: comment
-    url: mailto:glose@inria.fr
 
 exclude:
   - Gemfile
