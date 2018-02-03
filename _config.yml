@@ -24,6 +24,10 @@ permalink: pretty
 social:
   - title: comment
     url: mailto:glose@inria.fr
+  - title: twitter
+    url: https://twitter.com/gemocinitiative
+  - title: github
+    url: https://github.com/gemoc
 
 exclude:
   - Gemfile
