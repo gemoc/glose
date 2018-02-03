@@ -22,7 +22,7 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: email
+  - title: comment
     url: mailto:glose@inria.fr
 
 exclude:
