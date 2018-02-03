@@ -22,10 +22,8 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: twitter
-    url: https://twitter.com/gemocinitiative
-  - title: github
-    url: https://github.com/gemoc
+  - title: email
+    url: mailto:glose@inria.fr
 
 exclude:
   - Gemfile
