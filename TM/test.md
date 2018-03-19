@@ -3,7 +3,7 @@ layout: default
 title: Face to Face meeting
 ---
 
-# Face to Face technical meeting #2
+# Face to Face technical meeting number 2
 
 blabla
 
