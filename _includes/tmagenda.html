@@ -14,6 +14,8 @@
             {% assign fileName = tm.path | remove: '_tm/'| remove: '.md' %}
                 .style{{fileName}} {
                     background-image: url('{{site.url}}img/{{ tm.img }}');
+                    background-repeat: no-repeat;
+                    opacity: 0.5;
                 }
             </style>
             <div class="row style{{fileName}}">
