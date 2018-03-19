@@ -6,7 +6,11 @@
 {% endfor %}
  </ul>
 
-
+<style type="text/css">
+    .fullOpaque {
+        opacity: 1.0;
+    }
+</style>
 {% for tm in site.tm %}
     <div class="content-section-a">
         <div class="container">
@@ -19,7 +23,7 @@
                 }
             </style>
             <div class="row style{{fileName}}">
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-lg-5 col-sm-6 fullOpaque">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 id="{{tm.title}}" class="section-heading">{{ tm.title }}</h2>
