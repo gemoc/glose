@@ -1,33 +1,20 @@
 <section id="technicalMeetings">
 <!-- Page Content -->
 
-<h2>Here is the listing of all our face to face technical meeting.</h2>
+<h2>Here is the listing of all our face to face technical meetings.</h2>
  <ul>
 {% for tm in site.tm %}
     <li> <a href="./#{{tm.title}}"> {{ tm.title }}</a> </li>
 {% endfor %}
  </ul>
 
-<style type="text/css">
-    .fullOpaque {
-        opacity: 8.0;
-    }
-</style>
 {% for tm in site.tm %}
-<style type="text/css">
-{% assign fileName = tm.path | remove: '_tm/'| remove: '.md' %}
-    .style{{fileName}} {
-        background-image: url('{{site.url}}img/{{ tm.img }}');
-        background-repeat: no-repeat;
-        opacity: 0.5;
-    }
-</style>
  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
     <div class="content-section-a">
         <div class="container">
-            <div class="row style{{fileName}}">
-                <div class="col-lg-5 col-sm-6 fullOpaque">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6 ">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 id="{{tm.title}}" class="section-heading">{{ tm.title }}</h2>
@@ -42,11 +29,11 @@
     {% else %}
      <div class="content-section-b">
         <div class="container">
-            <div class="row style{{fileName}}">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6 fullOpaque">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 id="{{tm.title}}" class="section-heading">{{ tm.title }}</h2>
+                    <h2 id="{{tm.title}}" class="section-heading">{{ tm.title }}</h2> <img href='{{site.url}}img/{{ tm.img }}'/>
                     <div class="lead">{{ tm.content }}</div>
                 </div>
             </div>
