@@ -12,11 +12,11 @@
         <div class="container">
             <style type="text/css">
             {% assign fileName = tm.path | remove: '_tm/'| remove: '.md' %}
-                .{{fileName}} {
-                    background-image: url('{{site.url}}/img/{{ tm.img }}');
+                .style{{fileName}} {
+                    background-image: url('{{site.url}}img/{{ tm.img }}');
                 }
             </style>
-            <div class="row {{fileName}}">
+            <div class="row style{{fileName}}">
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
