@@ -10,12 +10,12 @@
 {% for tm in site.tm %}
     <div class="content-section-a">
         <div class="container">
-        {{file.url}}
-        {{file.path}}
+        {{tm.url}}
+        {{tm.path}}
             <style type="text/css">
-            {% assign fileName = file.path | remove: '/tm/'| remove: file.extname %}
+            {% assign fileName = tm.path | remove: '/tm/'| remove: tm.extname %}
                 .{{fileName}} {
-                    background-image: url('{{site.baseurl}}/img/{{ tm.img }}');
+                    background-image: url('{{site.url}}/img/{{ tm.img }}');
                 }
             </style>
             <div class="row {{fileName}}">
