@@ -10,15 +10,17 @@
 {% for tm in site.tm %}
     <div class="content-section-a">
         <div class="container">
-            <div class="row">
+            <style type="text/css">
+                .{{tm.path}} {
+                    background-image: url('{{site.baseurl}}/img/{{ tm.img }}');
+                }
+            </style>
+            <div class="row {{tm.path}}">
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 id="{{tm.title}}" class="section-heading">{{ tm.title }}</h2>
                     <div class="lead">{{ tm.content }}</div>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="{{site.baseurl}}/img/{{ tm.img }}" alt="">
                 </div>
             </div>
 
