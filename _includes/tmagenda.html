@@ -11,7 +11,7 @@
     <div class="content-section-a">
         <div class="container">
             <style type="text/css">
-            {% assign fileName = file.name | remove: file.extname %}
+            {% assign fileName = file.path | remove: '/tm/'| remove: file.extname %}
                 .{{fileName}} {
                     background-image: url('{{site.baseurl}}/img/{{ tm.img }}');
                 }
