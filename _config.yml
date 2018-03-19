@@ -37,6 +37,5 @@ exclude:
 # ------------------------------- #
 #   technical meeting Settings    #
 # ------------------------------- #
-  defaults:
-  - scope:
-      path: "tm"
+collections:
+- tm
