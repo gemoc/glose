@@ -39,4 +39,4 @@ exclude:
 # ------------------------------- #
   defaults:
   - scope:
-      path: "_tm"
+      path: "tm"
