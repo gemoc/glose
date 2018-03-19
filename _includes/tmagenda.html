@@ -1,22 +1,8 @@
 <section id="services">
 <!-- Page Content -->
+ <ul>
 {% for tm in site.tm %}
-    <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ tm.title }}</h2>
-                    <div class="lead">{{ tm.content }}</div>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/{{ tm.img }}" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-    </div>
+    <li> <a href="{{ tm.url }}"> {{ tm.title }}</a> </li>
 {% endfor %}
+ </ul>
 </section>
