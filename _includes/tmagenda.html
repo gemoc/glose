@@ -11,11 +11,12 @@
     <div class="content-section-a">
         <div class="container">
             <style type="text/css">
-                .{{tm.path}} {
+            {% assign fileName = file.name | remove: file.extname %}
+                .{{fileName}} {
                     background-image: url('{{site.baseurl}}/img/{{ tm.img }}');
                 }
             </style>
-            <div class="row {{tm.path}}">
+            <div class="row {{fileName}}">
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
