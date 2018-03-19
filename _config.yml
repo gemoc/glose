@@ -33,3 +33,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+
+# ------------------------------- #
+#   technical meeting Settings    #
+# ------------------------------- #
+  defaults:
+  - scope:
+      path: "_tm"
