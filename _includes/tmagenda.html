@@ -10,8 +10,8 @@
 {% for tm in site.tm %}
     <div class="content-section-a">
         <div class="container">
+        {{file.url}}
         {{file.path}}
-        {{file.extname}}
             <style type="text/css">
             {% assign fileName = file.path | remove: '/tm/'| remove: file.extname %}
                 .{{fileName}} {
