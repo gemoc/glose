@@ -8,7 +8,7 @@ description: |
 GLOSE is a collaboration between <a href="https://www.safran-group.com/" target="_blank">Safran</a>,
 the teams <a href="http://diverse.irisa.fr/" target="_blank">DiverSE</a>,
 <a href="https://www.irisa.fr/fr/equipes/hycomes-0" target="_blank">Hycomes</a> and
-<a href="https://www.inria.fr/equipes/kairos" target="_blank">KAIRIOS</a> at <a href="http://gemoc.org/studio/" target="_blank">Inria</a>,
+<a href="https://www.inria.fr/equipes/kairos" target="_blank">KAIROS</a> at <a href="http://gemoc.org/studio/" target="_blank">Inria</a>,
 and the team SM@RT at the <a href="http://www.cnrs.fr/index.php" target="_blank">CNRS</a>
 <a href="https://www.irit.fr/">IRIT</a> lab.
 
